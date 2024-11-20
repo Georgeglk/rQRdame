@@ -1,0 +1,48 @@
+/* Estilos personalizados */
+
+/* Color de fondo del navbar */
+.bg-pastel-yellow {
+    background-color: #d4a413; /* Amarillo pastel */
+}
+
+/* Fondo de la página principal */
+.main-content {
+    background: url('img/FondoQR.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* Estilo del contenedor de video */
+.video-container {
+    width: 80%;
+    max-width: 800px;
+    position: relative;
+    overflow: hidden;
+}
+
+.video-container video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Estilos del footer */
+.footer {
+    background-color: #333;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+.footer a {
+    color: #f0e68c; /* Amarillo pastel claro */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fff;
+}
